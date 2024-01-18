@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @Manish0039
-- 👀 I’m interested in ...
+- 👀 I’m interested in learning new things.
 - 🌱 I’m currently learning java language and basic web development
 - 📫 You can contact to me on my @manish__0039 insta id.
 

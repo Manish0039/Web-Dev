@@ -7,3 +7,10 @@ h2{
 #red{
   color: yellow;
 }
+p[draggable="true"]{
+  color: red;
+}
+
+*{
+  color: rgb(131, 91, 91);
+}

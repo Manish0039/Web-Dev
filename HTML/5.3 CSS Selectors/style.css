@@ -1,16 +1,7 @@
-.name{
-  color: blue;
-}
-h2{
-  color: violet;
-}
-#red{
-  color: yellow;
-}
-p[draggable="true"]{
-  color: red;
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
 }
 
-*{
-  color: rgb(131, 91, 91);
-}
+/* Write your CSS below, don't change the rules above. *

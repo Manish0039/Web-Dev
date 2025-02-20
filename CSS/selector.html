@@ -1,0 +1,101 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial scale=1.0">
+        <title>Selector Css</title>
+        <style>
+            p{
+                color: antiquewhite;
+            }
+            #elon{
+                color: azure;
+            }
+            .trump{
+                color: blue;
+            }
+            div p{
+                color-scheme: green;
+            }
+            ul>li{
+                color: maroon;
+            }
+            h1+h2{
+                color: blueviolet;
+            }
+            h3~h4{
+                color: chartreuse;
+            }
+
+            input[type="text"]{
+                color: crimson;
+            }
+            a[href^="https"]{
+                color: rgb(15, 7, 7);
+            }
+            .pseudo-class:hover{
+                color: gold;
+            }
+            .pseudo-element::first-line{
+                font-weight:bold;
+                color: black;
+            }
+            .pseudo-element::first-letter{
+                font-size: 2em;
+                color: red;
+
+            }
+        </style>
+    </head>
+    <body>
+        <!--Element selector-->
+        <p>Hello World </p>
+
+        <!-- Id selector-->
+         <p id="elon">Elon Musk is the owner of Tesla</p>
+
+         <!-- Class selector-->
+          <p class="trump">Trump is the president of  the united states</p>
+
+          <!-- Descendent selector-->
+           <div>
+            <p> Narender Modi is the prime minister of India</p>
+           </div>
+           <p>Jio Launches their browser</p>
+
+           <!-- child selector-->
+            <ul>
+                <li>this is the direct child of ul.</li>
+            </ul>
+
+            <!-- Adjacent sibling selector-->
+             <h1>Heading 1</h1>
+             <h2>Heading 2</h2>
+             <h2>Heading 3</h2>
+
+             <!-- General Sibling selector-->
+              <h3>This is an h3 element</h3>
+              <h4>this is a sibling of h3</h4>
+              <h4>this is also a sibling of h3</h4>
+
+              <!-- Attribute selector-->
+               <input type="text" placeholde="Text input">
+               <input type="password" placeholder="password input">
+               <a href="https://www.example.com">this is a secure link</a>
+               <a href="http://www.example.com">this is not a secure link</a>
+
+               <!-- Pseudo-class selector-->
+                <a class=pseudo-class href="#">Hover over this link</a>
+
+                <!--  Pseudo-element selector-->
+                  <p class="pseudo-element">this is pseudo-element selector</p>
+
+
+
+
+
+
+
+    </body>
+
+</html>

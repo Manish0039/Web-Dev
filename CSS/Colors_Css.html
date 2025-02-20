@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colors</title>
+    <style>
+        .named-colors{
+            color: blue;
+            background: lightgray;
+        }
+        .hex-colors{
+            color: #ff6347;
+            background: #f0f8ff;
+        }
+        .rgb-colors{
+            color: rgb(255,99,71);
+            background-color: rgb(240,248,255);
+        }
+        .rgba-colors{
+            color: rgba(255,99,71,0.8);
+            background-color: 240,248,255,0.5;
+        }
+        .hsl-colors{
+            color: hsl(9,100%,64%);
+            background-color: hsl(208,100%,97%);
+        }
+        .hsla-colors{
+           color: hsla(9,100%,64%,0.8);
+           background-color: hsla(208,100%,97%,0.5);
+
+        }
+        :root{--primary-color: #ff6347;
+            --background-color: #ff6347;
+        }
+        .variable-colors{
+            color: var(--primary-color);
+            background-color: (var(--background-color));
+
+        }
+
+    </style>
+</head>
+<body>
+    <h4>There are several ways to define colors for styling html elements. here is an overview of each methods.</h4>
+
+    <h3>1.Named Colors</h3>
+    <p class="named-colors">This text is blue with a light gray background</p>
+
+    <br><br>
+
+    <h3>2. Hexadecimal Colors</h3>
+    <p class="hex-colors">This text is tomato color with an Alice blue background.</p>
+
+    <br><br>
+
+    <h3>3.RGB Colors</h3>
+    <p class="rgb-colors">This text is tomato color with an alice blue bakcground</p>
+
+    <br><br>
+
+    <h3>4.RGBA Colors</h3>
+    <p class="rgba-colors">This text is tomato color with 80% opacity and an Alice blue bakcground with 50% opacity.</p>
+    
+    <br><br>
+
+    <h3>5.HSL</h3>
+    <p class="hsl-colors">This text is tomato color with an alice blue bakcground</p>
+
+    <br><br>
+
+    <h3>6.HSLA Colors</h3>
+    <p class="hsla-colors">This text is tomato color with 80% opacity  and alice blue bakcground with 50% opacity</p>
+
+    <br><br>
+
+    <h3>7.CSS Variables</h3>
+    <p class="variable-colors">This text uses CSS variable for color.</p>
+
+
+
+
+
+
+
+</body>
+</html>

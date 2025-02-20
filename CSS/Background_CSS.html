@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Properties</title>
+    <style>
+        .bg-color{
+            background-color: lightblue;
+        }
+        .bg-image{
+            background-image: url(/HTML/Images/dog.jpg);
+            background-position: center;
+            background-size:cover;
+        }
+        .bg-position{
+            background-image: url(/html/Images/dog.jpg);
+            background-position: top right;
+            background-repeat:  no-repeat;
+        }
+        .bg-size{
+            background-image: url(/html/images/dog.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        .bg-repeat{
+            background-image: url(/html/images/dog.jpg);
+            background-repeat: repeat-x;
+        }
+        .bg-attachment{
+            background-image: url(/html/images/dog.jpg);
+            background-attachment: fixed;
+        }
+
+
+    </style>
+</head>
+<body>
+    
+    <h3>1.Background Color</h3>
+    <div class="bg-color">This div has a light blue background color.</div>
+    <br><br>
+
+    <h3>2. Background Image</h3>
+    <div class="bg-image">This div has a background image.</div>
+
+    <br><br>
+
+    <h3>3. Background Position</h3>
+    <div class="bg-position"> This div has a background image at the top right </div>
+
+    <br><br>
+
+    <h3>4. Background Size</h3>
+    <div class="bg-size">This div has a background image that covers the entire area.</div>
+
+    <br><br>
+
+    <h3>5. Background repeat</h3>
+    <div class="bg-repeat">This div has a background image repeating horizontally.</div>
+
+    <br><br>
+
+    <h3>6. Background Attachment</h3>
+    <div class="bg-attachment">This div has a background image with fixed attachment.</div>
+
+    <br><br>
+
+    <h3>7. Background Origin</h3>
+    <div class="bg-origin">Defines where the background image starts relative to the element's box model.</div>
+
+    <br><br>
+
+    <h3>8. Background Clip</h3>
+    <div class="bg-clip">Controls how far a background image extends within an element's padding or border.</div>
+
+
+</body>
+</html>

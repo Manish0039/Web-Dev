@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .container{
+            background-color: darkgray;
+            border: 5px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        @media (max-width:500px){
+            .container{
+                background-color: aqua;
+                padding: 20px;
+                margin: 20px;
+                border: 5px solid green;
+            }
+        }
+        .orientation{
+            background-color: chocolate;
+            border: 5px solid black;
+            margin: 20px;
+            padding: 20px;
+        }
+        @media (orientation:landscape){
+            .orientation{
+                background-color: rgb(89, 64, 172);
+            border: 5px solid black;
+            margin: 20px;
+            padding: 20px;
+            }
+        }
+        @media (orientation:portrait){
+            .orientation{
+                background-color: rgb(40, 174, 91);
+            border: 5px solid black;
+            margin: 20px;
+            padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <p>This container's styles change based on the screen width.</p>
+    </div>
+
+    <div class="orientation">
+        <p>This container's styles changes based on the screen orientation.</p>
+    </div>
+</body>
+</html>
